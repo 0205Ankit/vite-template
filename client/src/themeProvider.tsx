@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { createContext } from "react";
 import checkTheme from "./helper/checkTheme";
 
+// eslint-disable-next-line react-refresh/only-export-components
 export enum COLOR_TYPES {
   // Theme based colors
   PRIMARY_BACKGROUND = "PRIMARY_BACKGROUND",
